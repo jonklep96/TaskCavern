@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="activity_title_size">32sp</dimen>
+    <dimen name="activity_title_padding">4sp</dimen>
+
+    <dimen name="dashboard_title_padding">6dp</dimen>
+    <dimen name="dashboard_title_margin">4dp</dimen>
+
+    <dimen name="sv_padding">1dp</dimen>
+
+    <dimen name="dashboard_item_height">100dp</dimen>
+    <dimen name="dashboard_item_width">100dp</dimen>
+    <dimen name="dashboard_item_margin">8dp</dimen>
+    <dimen name="dashboard_item_padding">6dp</dimen>
+
+    <dimen name="add_button_padding">10dp</dimen>
+
+    <dimen name="add_secondary_item_width">30dp</dimen>
+    <dimen name="add_secondary_item_height">25dp</dimen>
+    <dimen name="add_secondary_item_margin">15dp</dimen>
+    <dimen name="add_secondary_item_plus_width">10dp</dimen>
+    <dimen name="add_secondary_item_plus_height">10dp</dimen>
+</resources>

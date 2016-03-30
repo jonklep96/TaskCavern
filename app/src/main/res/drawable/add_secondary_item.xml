@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <layer-list>
+            <item android:width="@dimen/add_secondary_item_width"
+                android:height="@dimen/add_secondary_item_height"
+                android:gravity="center">
+                <shape android:shape="oval">
+                    <solid android:color="@color/add_secondary_item" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/plus"
+                android:width="@dimen/add_secondary_item_plus_width"
+                android:height="@dimen/add_secondary_item_plus_height"
+                android:gravity="center"/>
+        </layer-list>
+    </item>
+</selector>

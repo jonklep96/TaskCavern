@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task Cavern</string>
+    <string name="btn_login">Log In</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="btn_create_dashboard_item">Add Item</string>
+    <string name="context_menu_title">Select an Action</string>
+    <string name="primary_list_title">Primary List</string>
+    <string name="secondary_list_title">Secondary List</string>
+    <string name="list_add_item">Add New Item</string>
+
+    <string-array name="dashboard_context_menu">
+        <item>Delete</item>
+        <item>Move</item>
+    </string-array>
+</resources>

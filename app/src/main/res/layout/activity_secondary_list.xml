@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondaryListActivity">
+
+    <TextView android:id="@+id/tv_secondary_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_title_padding"
+        android:theme="@style/ActivityTitle"
+        android:text="@string/secondary_list_title"/>
+
+    <ListView android:id="@+id/lv_secondary_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/btn_add_secondary_item"
+            android:layout_width="@dimen/add_secondary_item_width"
+            android:layout_height="@dimen/add_secondary_item_height"
+            android:layout_margin="@dimen/add_secondary_item_margin"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:background="@drawable/add_secondary_item"/>
+
+        <EditText android:id="@+id/et_add_secondary_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="textAutoComplete" />
+    </LinearLayout>
+
+</LinearLayout>

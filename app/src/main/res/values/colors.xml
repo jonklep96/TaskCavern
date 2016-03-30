@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="activityTitleBackground">#FF223344</color>
+    <color name="activityTitleText">#FFEEDDEE</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="shadow">#44444444</color>
+
+    <color name="custom_button">#AA012345</color>
+    <color name="custom_button_pressed">#55123456</color>
+
+    <color name="add_secondary_item">#EE67ED78</color>
+    <color name="add_secondary_item_pressed">#EE67CA78</color>
+</resources>
